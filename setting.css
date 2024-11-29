@@ -1,0 +1,66 @@
+body {
+    background-color: lemonchiffon;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #voice-search-btn img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  button.dark-mode {
+    background-color: #333;
+    color: white;
+  }
+.button-container {
+    margin-bottom: 10px; 
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  img {
+    width: 24px; 
+    height: 24px;
+  }
+  
+.button-container {
+    margin-bottom: 10px; 
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .mic-icon {
+    width: 24px; 
+    height: 24px;
+    margin-right: 8px; 
+  }
+  

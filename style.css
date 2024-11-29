@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: lemonchiffon;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+input, button, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.container {
+    text-align: center; 
+    max-width: 600px; 
+    width: 100%;
+    padding: 20px;
+    background-color: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+}
+
+#total-cost, #remaining-budget {
+    color: red; 
+}
+
+#budget-message-container {
+    margin-top: 10px;
+    color: red;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.aisle {
+    padding: 10px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.aisle:hover {
+    background-color: #f1f1f1;
+}
+
+.highlighted {
+    background-color: #ffeb3b; 
+}
+
+#recommendation-display {
+    margin-top: 10px;
+    color: #007BFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #555; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; 
+    display: inline-flex; 
+    gap: 10px; 
+}
+
+#item-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#item-list li span {
+    flex-grow: 1; 
+}
+
+#item-list li button {
+    margin-left: 10px; 
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#item-list li button:hover {
+    background-color: #555;
+}
+
+#aisles {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aisle {
+    flex: 1;
+    text-align: center;
+    margin: 5px;
+}
+.aisle.selected {
+    background-color: yellow;
+  }
+  
